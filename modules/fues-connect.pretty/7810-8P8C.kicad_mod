@@ -23,7 +23,7 @@
   (pad 9 thru_hole circle (at -8.125 -2.54) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at 7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at -7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIFUESMOD}/3Dmodels/conn/7810-8P8C.wrl
+  (model "${KIFUESMOD}/3Dmodels/conn/7810-8P8C.wrl"
     (at (xyz 0 0 -0.11811))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

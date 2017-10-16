@@ -16,7 +16,7 @@
   (fp_line (start 2.54 -1.524) (end -1.524 -1.524) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.5 0) (size 1.5 2.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.5 0) (size 1.5 2.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KIFUESMOD}/3Dmodels/led/HSMx-A10x-xxxxx_top_mount.wrl
+  (model "${KIFUESMOD}/3Dmodels/led/HSMx-A10x-xxxxx_top_mount.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

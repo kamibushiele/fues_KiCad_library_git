@@ -22,7 +22,7 @@
   (pad 8 thru_hole circle (at 0 3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at -2.54 3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at -5.08 3.81) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIFUESMOD}/3Dmodels/relay/EA2-xTxx.wrl
+  (model "${KIFUESMOD}/3Dmodels/relay/EA2-xTxx.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

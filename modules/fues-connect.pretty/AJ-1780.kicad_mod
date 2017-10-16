@@ -17,7 +17,7 @@
   (pad 3 thru_hole oval (at 8.5 -5.4 90) (size 1.5 3) (drill oval 1 1.8) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole oval (at 11.3 4.3) (size 1.5 3) (drill oval 1 1.8) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole oval (at 6.8 -2.9 90) (size 1.5 3) (drill oval 1 1.8) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIFUESMOD}/3Dmodels/conn/AJ-1780.wrl
+  (model "${KIFUESMOD}/3Dmodels/conn/AJ-1780.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

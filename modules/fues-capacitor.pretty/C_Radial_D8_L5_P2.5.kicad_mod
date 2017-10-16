@@ -15,7 +15,7 @@
   (fp_circle (center 0 0) (end 4 0) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at -1.25 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 1.25 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIFUESMOD}/3Dmodels/cap/C_Radial_D8_L5_P2.5.wrl
+  (model "${KIFUESMOD}/3Dmodels/cap/C_Radial_D8_L5_P2.5.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

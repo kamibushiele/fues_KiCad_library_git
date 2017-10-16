@@ -16,7 +16,7 @@
   (pad "" thru_hole circle (at 0 2.5) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 1 smd rect (at -1.75 4.75) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.75 4.75) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KIFUESMOD}/3Dmodels/button_sw/ESE22MH4XDK.wrl
+  (model "${KIFUESMOD}/3Dmodels/button_sw/ESE22MH4XDK.wrl"
     (at (xyz 0 -0.04488 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

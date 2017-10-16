@@ -43,7 +43,7 @@
   (pad 36 smd rect (at -8.75 0) (size 0.3 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 0 smd rect (at 11 -2) (size 2 2.75) (layers F.Cu F.Paste F.Mask))
   (pad 37 smd rect (at -11 -2) (size 2 2.75) (layers F.Cu F.Paste F.Mask))
-  (model ${KIFUESMOD}/3Dmodels/conn/CN-FFC(0.5)36PD.wrl
+  (model "${KIFUESMOD}/3Dmodels/conn/CN-FFC(0.5)36PD.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 180))
