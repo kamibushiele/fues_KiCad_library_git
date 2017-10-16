@@ -11,7 +11,7 @@
         |   |
         |   +-...
         |
-        +-*.pertty(フットプリント)
+        +-*.pretty(フットプリント)
         +-...
 ## 導入
 ### まずは
@@ -33,17 +33,15 @@ __fp-lib-table__
 
 に以下を追加
 
-      (lib (name fues-Battery_Holders.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-Battery_Holders.pretty)(options "")(descr ""))
-      (lib (name fues-Buttons_Switches.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-Buttons_Switches.pretty)(options "")(descr ""))
-      (lib (name fues-Buzzers_Beepers.pertty)(type KiCad)(uri ${KIFUESMOD}/fues-Buzzers_Beepers.pertty)(options "")(descr ""))
-      (lib (name fues-capacitor.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-capacitor.pretty)(options "")(descr ""))
-      (lib (name fues-connect.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-connect.pretty)(options "")(descr ""))
-      (lib (name fues-display.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-display.pretty)(options "")(descr ""))
-      (lib (name fues-Housings_DIP.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-Housings_DIP.pretty)(options "")(descr ""))
-      (lib (name fues-IC_and_module.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-IC_and_module.pretty)(options "")(descr ""))
-      (lib (name fues-LEDs.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-LEDs.pretty)(options "")(descr ""))
-      (lib (name fues-mounting_hole.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-mounting_hole.pretty)(options "")(descr ""))
-      (lib (name fues-PIC.pretty)(type KiCad)(uri ${KIFUESMOD}/fues-PIC.pretty)(options "")(descr ""))
-      (lib (name fues-Relays.pertty)(type KiCad)(uri ${KIFUESMOD}/fues-Relays.pertty)(options "")(descr ""))
-
-
+      (lib (name fues-Battery_Holders)(type KiCad)(uri ${KIFUESMOD}/fues-Battery_Holders.pretty)(options "")(descr ""))
+      (lib (name fues-Buttons_Switches)(type KiCad)(uri ${KIFUESMOD}/fues-Buttons_Switches.pretty)(options "")(descr ""))
+      (lib (name fues-Buzzers_Beepers)(type KiCad)(uri ${KIFUESMOD}/fues-Buzzers_Beepers.pretty)(options "")(descr ""))
+      (lib (name fues-capacitor)(type KiCad)(uri ${KIFUESMOD}/fues-capacitor.pretty)(options "")(descr ""))
+      (lib (name fues-connect)(type KiCad)(uri ${KIFUESMOD}/fues-connect.pretty)(options "")(descr ""))
+      (lib (name fues-display)(type KiCad)(uri ${KIFUESMOD}/fues-display.pretty)(options "")(descr ""))
+      (lib (name fues-Housings_DIP)(type KiCad)(uri ${KIFUESMOD}/fues-Housings_DIP.pretty)(options "")(descr ""))
+      (lib (name fues-IC_and_module)(type KiCad)(uri ${KIFUESMOD}/fues-IC_and_module.pretty)(options "")(descr ""))
+      (lib (name fues-LEDs)(type KiCad)(uri ${KIFUESMOD}/fues-LEDs.pretty)(options "")(descr ""))
+      (lib (name fues-mounting_hole)(type KiCad)(uri ${KIFUESMOD}/fues-mounting_hole.pretty)(options "")(descr ""))
+      (lib (name fues-PIC)(type KiCad)(uri ${KIFUESMOD}/fues-PIC.pretty)(options "")(descr ""))
+      (lib (name fues-Relays)(type KiCad)(uri ${KIFUESMOD}/fues-Relays.pretty)(options "")(descr ""))
