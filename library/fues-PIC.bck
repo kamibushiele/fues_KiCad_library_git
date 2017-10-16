@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICSPforPICKit
+D Connector 01x06 for PICKit
+K pic pickit
+$ENDCMP
+#
+#End Doc Library

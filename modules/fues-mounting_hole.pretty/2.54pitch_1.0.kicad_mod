@@ -1,0 +1,9 @@
+(module 2.54pitch_1.0 (layer F.Cu) (tedit 596A0590)
+  (fp_text reference REF** (at 0 1.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 2.54pitch_1.0 (at 0 -2.54) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+)

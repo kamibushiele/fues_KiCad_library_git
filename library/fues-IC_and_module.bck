@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 555
+D timer IC
+K timer
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LTC1144
+D voltage converter
+K voltage 
+$ENDCMP
+#
+$CMP NJM4580
+D 2ch OPamp
+K OPamp amp
+$ENDCMP
+#
+$CMP NJU7223xxxx
+D Linear Regulator
+K POWER REGUL
+$ENDCMP
+#
+$CMP NJW1159
+D electric volume
+K volume
+$ENDCMP
+#
+$CMP OPAMP
+D 2ch OPamp
+K OPamp amp
+$ENDCMP
+#
+#End Doc Library
