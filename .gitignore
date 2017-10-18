@@ -1,11 +1,13 @@
+###root
 /*
-!/*/
 !.gitignore
 !readme.md
-###component_library
-!*.lib
-!*.dcm
 
-###model
-!*.wrl
-!*.kicad_mod
+###library
+!/library/
+/library/*
+!library/*.lib
+!library/*.dcm
+
+###modules
+!/modules/
