@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CONN_02X07(07X02)
+D Connector 02x07
+$ENDCMP
+#
 $CMP USB_microB
 D USB microB connector
 K USB

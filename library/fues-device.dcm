@@ -1,13 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP D_Schottky_Small_ANK
+D Diode Schottky
+$ENDCMP
+#
 $CMP EA2-xTxx
 D NEC latch relay
 K relay
 $ENDCMP
 #
+$CMP FDS4935A
+D Dual N-Channel MOS FET
+K nch MOS FET
+$ENDCMP
+#
 $CMP LED_small
 D diagonal led
 K led
+$ENDCMP
+#
+$CMP [mu]PA2753GR
+D Dual N-Channel MOS FET
+K nch MOS FET
 $ENDCMP
 #
 $CMP photoTR_EC
