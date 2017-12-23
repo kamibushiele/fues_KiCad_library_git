@@ -1,9 +1,9 @@
-(module M3-drillHole (layer F.Cu) (tedit 5A3CFC89)
+(module M3-drillHole_5mm_nosilk (layer F.Cu) (tedit 5A3CFC6E)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value M3-hole (at 0 -0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 3) (layers *.Cu *.SilkS *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3) (layers *.Cu *.Mask))
 )
