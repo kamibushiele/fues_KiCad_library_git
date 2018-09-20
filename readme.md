@@ -1,4 +1,7 @@
 # これまで作ってきたKiCadライブラリ
+## Kicadバージョン
+__5.0.0__
+
 ## 構成
     +-library-(コンポーネントライブラリ)
     |   +-*.lib
@@ -16,13 +19,30 @@
 ## 導入
 ### まずは
 適当な場所にクローンしてくる
-### コンポーネントライブラリの追加
-リポジトリの`/library`以下をKiCadのコンポーネントライブラリに追加
 
-### フットプリント用環境変数の追加
+### 環境変数の追加
 名前:`KIFUESMOD`
-
 パス:`[リポジトリのパス]/modules`
+
+名前:`KIFUESLIB`
+パス:`[リポジトリのパス]/library`
+
+### コンポーネントライブラリの追加
+__%appdata%\kicad__
+
+にある
+
+__sym-lib-table__
+
+に以下を追加
+
+      (lib (name fues-conn)(type Legacy)(uri ${KIFUESLIB}/fues-conn.lib)(options "")(descr ""))
+      (lib (name fues-device)(type Legacy)(uri ${KIFUESLIB}/fues-device.lib)(options "")(descr ""))
+      (lib (name fues-display)(type Legacy)(uri ${KIFUESLIB}/fues-display.lib)(options "")(descr ""))
+      (lib (name fues-IC_and_module)(type Legacy)(uri ${KIFUESLIB}/fues-IC_and_module.lib)(options "")(descr ""))
+      (lib (name fues-mounting_hole)(type Legacy)(uri ${KIFUESLIB}/fues-mounting_hole.lib)(options "")(descr ""))
+      (lib (name fues-PIC)(type Legacy)(uri ${KIFUESLIB}/fues-PIC.lib)(options "")(descr ""))
+      (lib (name fues-power)(type Legacy)(uri ${KIFUESLIB}/fues-power.lib)(options "")(descr ""))
 
 ### フットプリントライブラリの追加
 __%appdata%\kicad__
