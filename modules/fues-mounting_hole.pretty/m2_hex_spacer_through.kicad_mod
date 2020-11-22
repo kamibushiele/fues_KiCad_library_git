@@ -1,0 +1,9 @@
+(module m2_hex_spacer_through (layer F.Cu) (tedit 5BE914CD)
+  (fp_text reference REF** (at 4.5 -2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value m2_hex_spacer_through (at 0 -3.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4.7 4.7) (drill 4.7) (layers *.Cu *.Mask))
+)

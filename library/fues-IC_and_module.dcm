@@ -11,9 +11,19 @@ K POWER REGUL
 F regulator\lm78lxx.pdf
 $ENDCMP
 #
+$CMP CH340E
+D USB-Serial
+K USB UART
+$ENDCMP
+#
+$CMP LM1972
+D Pot 2-Channel 78dB Audio Attenuator with Mute
+K Audio Attenuator 
+$ENDCMP
+#
 $CMP LTC1144
 D voltage converter
-K voltage 
+K voltage
 $ENDCMP
 #
 $CMP NJU7223xxxx
@@ -29,6 +39,11 @@ $ENDCMP
 $CMP OPAMP
 D 2ch OPamp
 K OPamp amp
+$ENDCMP
+#
+$CMP TC118SS
+D Single channel DC motor driver
+K motor
 $ENDCMP
 #
 #End Doc Library
