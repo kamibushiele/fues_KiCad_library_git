@@ -1,4 +1,4 @@
-(module 7810-8P8C (layer F.Cu) (tedit 59661C11)
+(module 7810-8P8C (layer F.Cu) (tedit 61127B8A)
   (tags RJ45)
   (fp_text reference REF** (at 6.35 -6.985 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,10 +21,10 @@
   (pad 1 thru_hole oval (at 3.5 -2.54) (size 1.2 1.5) (drill 0.9) (layers *.Cu *.Mask))
   (pad SH thru_hole circle (at 8.125 -2.54) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad SH thru_hole circle (at -8.125 -2.54) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at 7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at -7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu *.Mask))
-  (model "${KIFUESMOD}/3Dmodels/conn/7810-8P8C.wrl"
-    (at (xyz 0 0 -0.11811))
+  (pad "" np_thru_hole circle (at 7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu))
+  (pad "" np_thru_hole circle (at -7.4 2.3) (size 3 3) (drill 2.4) (layers *.Cu))
+  (model ${KIFUESMOD}/3Dmodels/conn/7810-8P8C.wrl
+    (offset (xyz 0 0 -3))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
   )
