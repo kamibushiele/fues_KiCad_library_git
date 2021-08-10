@@ -4,4 +4,9 @@ $CMP AQM0802A-FLW-GBW
 D 8x2 LCD module +backlight
 $ENDCMP
 #
+$CMP OSL10564-X
+D X=I ->AnodeCommon,X=L -> Cathode Common
+K 7segment led
+$ENDCMP
+#
 #End Doc Library

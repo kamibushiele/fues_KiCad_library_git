@@ -11,19 +11,64 @@ K POWER REGUL
 F regulator\lm78lxx.pdf
 $ENDCMP
 #
+$CMP AD797
+D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
 $CMP CH340E
 D USB-Serial
 K USB UART
 $ENDCMP
 #
+$CMP EL2070C
+D Current Feedback Amplifier
+K Current Feedback OP amp
+$ENDCMP
+#
+$CMP LM101
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
 $CMP LM1972
 D Pot 2-Channel 78dB Audio Attenuator with Mute
-K Audio Attenuator 
+K Audio Attenuator
+$ENDCMP
+#
+$CMP LM201
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
+$CMP LM301
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
+$CMP LT1010
+D Fast +-150mA Power Buffer
+K Power Buffer
+$ENDCMP
+#
+$CMP LT1012
+D Single Picoamp Input Current, Microvolt Offset, Low Noise Op Amp, DIP-8/SOIC-8/TO-5-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1012.pdf
 $ENDCMP
 #
 $CMP LTC1144
 D voltage converter
 K voltage
+$ENDCMP
+#
+$CMP MC34063
+D DC/DC converter
+K NJM2392,NJM2360,NJM2374,
 $ENDCMP
 #
 $CMP NJU7223xxxx
@@ -36,14 +81,30 @@ D electric volume
 K volume
 $ENDCMP
 #
+$CMP NJW1933-T
+D 600mA DC/DC converter
+K DC/DC
+$ENDCMP
+#
 $CMP OPAMP
 D 2ch OPamp
 K OPamp amp
 $ENDCMP
 #
+$CMP SA5534
+D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
+$ENDCMP
+#
 $CMP TC118SS
 D Single channel DC motor driver
 K motor
+$ENDCMP
+#
+$CMP TLP591B
+D Photo coupler
+K Photo diode
 $ENDCMP
 #
 #End Doc Library
