@@ -1,4 +1,4 @@
-(module USB_C_01 (layer F.Cu) (tedit 5E1988C8)
+(module USB_C_01 (layer F.Cu) (tedit 61E2AF98)
   (fp_text reference REF** (at 0 -2.04) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -24,4 +24,9 @@
   (pad S1 thru_hole oval (at -4.32 1.64) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at 4.32 5.82) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at -4.32 5.82) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask))
+  (model ${KIFUESMOD}/3Dmodels/conn/type-c_NOT_FOR_COMMERCIAL.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

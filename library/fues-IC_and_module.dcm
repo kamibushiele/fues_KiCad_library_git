@@ -27,6 +27,23 @@ D Current Feedback Amplifier
 K Current Feedback OP amp
 $ENDCMP
 #
+$CMP ESP32-S3-WROOM-1
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP LM101
 D Operational Amplifier, DIP-8/TO-99-8
 K single opamp
