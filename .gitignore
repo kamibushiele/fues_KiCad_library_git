@@ -1,17 +1,4 @@
-###root
-/*
-!.gitignore
-!readme.md
-
-###library
-!/library/
-/library/*
-!library/*.lib
-!library/*.dcm
-
-###modules
-!/modules/
-
+/.vscode
 
 ### problem in licence
 **/*NOT_FOR_COMMERCIAL*
